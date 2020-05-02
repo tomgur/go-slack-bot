@@ -49,6 +49,7 @@ func GetEc2Regions() string {
 	err := cmd.Run()
 	if err != nil {
 		log.Printf("[ERROR] Could not get AWS regions\n%s\n%s", out, err)
+		return "[ERROR] - Could not get AWS regions"
 	}
 	return out.String()
 }

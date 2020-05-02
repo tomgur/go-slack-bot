@@ -22,11 +22,11 @@
     go mod init <moduleName (i.e acme/slackbot)>
     go install <modulName ^>
 3. Set the following environement vars:
-* SSL_CERT_PATH (SSL cert / bundle)
-* SSL_KEY_PATH (SSL private key)
-* SLACK_BOT_TOKEN (Slack bot token (starting with "xoxb-"))
-* SLACK_VERIFICATION_TOKEN (Slack verification token (this is the **old** token - to verify request source))
-* AWS_KEY_ID
-* AWS_SECRET_KEY
+   `SSL_CERT_PATH` (SSL cert / bundle)
+   `SSL_KEY_PATH` (SSL private key)
+   `SLACK_BOT_TOKEN` (Slack bot token (starting with "xoxb-"))
+   `SLACK_VERIFICATION_TOKEN` (Slack verification token (this is the _old_ token - to verify request source))
+   `AWS_KEY_ID`
+   `AWS_SECRET_KEY`
 4. Run the bot
    `sudo -E go run <moduleName from step 2> &`

@@ -18,9 +18,9 @@
 ### To run this bot:
 1. Install Golang
 2. Create, build and install the bot module
-   ```cd bot
-   go mod init <moduleName (i.e acme/slackbot)>
-   go install <modulName ^>```
+    ```cd bot
+    go mod init <moduleName (i.e acme/slackbot)>
+    go install <modulName ^>
 3. Set the following environement vars:
 * SSL_CERT_PATH (SSL cert / bundle)
 * SSL_KEY_PATH (SSL private key)

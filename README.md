@@ -1,7 +1,7 @@
-*This is a Slack bot written in Golang built to communicate with AWS
-** The bot is packaged in a GO module
+# This is a Slack bot written in Golang built to communicate with AWS
+## The bot is packaged in a GO module
 
-*** Prerequisites
+### Prerequisites
 1. Create a server that will run your bot (This server needs to run in your VPC and have *******permissions*******)
    1. The server needs to be accessible by Slack
    2. The server needs to have a valid SSL ceritificate (I used LetsEncrypt for testing)
@@ -15,8 +15,7 @@
    1. /createUser <userName>
    2. /getrunningec2
 
-To run this bot:
-----------------
+### To run this bot:
 1. Install Golang
 2. Build and install the bot module
 > cd bot
